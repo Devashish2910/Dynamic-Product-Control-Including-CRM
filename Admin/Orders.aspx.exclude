@@ -1,0 +1,114 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/Admin/AdminMaster.master" AutoEventWireup="true" CodeFile="Orders.aspx.cs" Inherits="Admin_Orders" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <style type="text/css">
+        div.selector
+        {
+            width: 100px !important;
+        }
+
+            div.selector span
+            {
+                width: 100px !important;
+            }
+
+            div.selector select
+            {
+               
+                width: 112px;
+            }
+    </style>
+    <div class="widget">
+        <div class="head">
+            <h5 class="iList">Orders
+            </h5>
+        </div>
+    </div>
+    <div class="table">
+        <div class="head">
+            <h5 class="iFrames">All Record
+            </h5>
+        </div>
+        <asp:Repeater ID="rptr" runat="server" OnItemCommand="rptr_ItemCommand" OnItemDataBound="rptr_ItemDataBound">
+            <HeaderTemplate>
+                <table cellpadding="0" cellspacing="0" border="0" id="Column8" class="display">
+                    <thead>
+                        <tr>
+                            <th>#
+                            </th>
+
+                            <th>Order.No
+                            </th>
+                            <th>Date
+                            </th>
+                            <th>Amount
+                            </th>
+                            <th>Payment Mode
+                            </th>
+                            <th>Paid
+                            </th>
+                            <th>Status
+                            </th>
+                            <th>Name
+                            </th>
+                            <th>Email
+                            </th>
+                            <th>Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            </HeaderTemplate>
+            <ItemTemplate>
+                <tr class="gradeA">
+                    <td>
+                        <asp:Label ID="lblDisplaySequence" runat="server" Text='<%#Container.ItemIndex +1 %>'></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="lblOrderID" runat="server" Text='<%#Eval("OrderId")%>'></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="lblDate" runat="server" Text='<%#Eval("OrderDate","{0:dd MMM yyyy}")%>'></asp:Label>
+                    </td>
+                    <td>Rs.&nbsp;<asp:Label ID="lblOrderAmount" runat="server" Text='<%#Eval("OrderAmount")%>'></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="lblPaymentMode" runat="server" Text='<%#Eval("PaymentMode")%>'></asp:Label>
+                    </td>
+                    <td>
+                        <asp:CheckBox runat="server" ID="chkCOD" Checked='<%#Eval("IsPaid")%>' Visible="false" AutoPostBack="true" OnCheckedChanged="chkCOD_CheckedChanged" ToolTip='<%# Eval("InvoiceId") %>' />
+                        <asp:Label ID="lblPaid" runat="server" Text="" Visible="true"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:DropDownList runat="server" ID="drpStatus" AutoPostBack="true" OnSelectedIndexChanged="drpStatus_SelectedIndexChanged" ToolTip='<%# Eval("InvoiceId") %>'>
+                            <asp:ListItem Text="In Process"></asp:ListItem>
+                            <asp:ListItem Text="Pending"></asp:ListItem>
+                            <asp:ListItem Text="Dispatched"></asp:ListItem>
+                            <asp:ListItem Text="Delivered"></asp:ListItem>
+                        </asp:DropDownList>
+                        <asp:Label ID="lblStatus" runat="server" Text='<%#Eval("OrderStatus")%>' Visible="false"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="lblName" runat="server" Text='<%#Eval("SName")%>'></asp:Label>
+
+                    </td>
+                    <td>
+                        <asp:Label ID="lblEmail" runat="server" Text='<%#Eval("SEmail")%>'></asp:Label>
+                    </td>
+                    <td class="center">
+                        <asp:LinkButton ID="lnkbtnView" runat="server" CausesValidation="false" CommandArgument='<%# Bind("InvoiceId")%>'
+                            CommandName="View" CssClass="linkCss" Text="View Order" OnClientClick="javascript:window.scrollTo(150,0);"></asp:LinkButton>
+                        <%--  |
+                        <asp:LinkButton ID="lnkbtnDelete" runat="server" CausesValidation="false" CommandArgument='<%# Bind("InvoiceId")%>'
+                            CommandName="Delete" CssClass="linkCss" OnClientClick="javascript:return window.confirm('Are You Sure You Want To Delete?')"
+                            Text="Delete"></asp:LinkButton>--%>
+                    </td>
+                </tr>
+            </ItemTemplate>
+            <FooterTemplate>
+                </tbody> </table>
+            </FooterTemplate>
+        </asp:Repeater>
+    </div>
+</asp:Content>
+

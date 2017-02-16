@@ -1,0 +1,247 @@
+﻿
+.ctl00_ContentPlaceHolder1_txtDetail_OuterTable
+{
+    background: White !important;
+    border: solid 1px #DADADA;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_DesignBox, .ctl00_ContentPlaceHolder1_txtDetail_HtmlBox
+{
+    border-right: none !important;
+    border-left: none !important;
+    border-top: 1px solid #DADADA !important;
+    border-bottom: none !important;
+    background-color: White !important;
+    color: #666 !important;
+    width: 650px !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_EndTab, ctl00_ContentPlaceHolder1_.txtDetail_StartTabOn, .ctl00_ContentPlaceHolder1_txtDetail_StartTabOff
+{
+    background-color: White !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: 1px solid #DADADA !important;
+    border-bottom: none !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_TabOn
+{
+    background-color: white !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_TabOffRight
+{
+    background-color: White !important;
+    border-left: 1px solid #666 !important;
+    border-right: 1px solid #666 !important;
+    border-top: 1px solid #666 !important;
+    border-bottom: none !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_TabOffLeft
+{
+    background-color: White !important;
+    border-left: none !important;
+    border-right: 1px solid #666 !important;
+    border-top: 1px solid #666 !important;
+    border-bottom: none !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_StartTabOn, .ctl00_ContentPlaceHolder1_txtDetail_StartTabOff
+{
+    display: none;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_Button_On_Out img
+{
+    padding: 0px;
+    border-top: 1px solid #DADADA !important;
+    border-left: 1px solid #DADADA !important;
+    border-right: 1px solid #DADADA !important;
+    border-bottom: 1px solid #DADADA !important;
+    background-color: WhiteSmoke !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_Button_On_Over img
+{
+    padding: 0px;
+    border-top: 1px solid #DADADA !important;
+    border-left: 1px solid #DADADA !important;
+    border-right: 1px solid #DADADA !important;
+    border-bottom: 1px solid #DADADA !important;
+    background-color: WhiteSmoke !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_Button_Off_Over img
+{
+    padding: 0px;
+    border-top: 1px solid #DADADA !important;
+    border-left: 1px solid #DADADA !important;
+    border-right: 1px solid #DADADA !important;
+    border-bottom: 1px solid #DADADA !important;
+    background-color: WhiteSmoke !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_AncestorArea
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_AncestorArea a
+{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    border: 1px solid #DADADA !important;
+    color: #666 !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_AncestorArea a:hover
+{
+    background-color: WhiteSmoke !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail_AncestorArea a:active
+{
+    background-color: WhiteSmoke !important;
+}
+nobr
+{
+    cursor:pointer;
+}
+
+
+.ctl00_ContentPlaceHolder1_txtDetail1_OuterTable
+{
+    background: White !important;
+    border: solid 1px #DADADA;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_DesignBox, .ctl00_ContentPlaceHolder1_txtDetail1_HtmlBox
+{
+    border-right: none !important;
+    border-left: none !important;
+    border-top: 1px solid #DADADA !important;
+    border-bottom: none !important;
+    background-color: White !important;
+    color: #666 !important;
+    width: 650px !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_EndTab, ctl00_ContentPlaceHolder1_.txtDetail1_StartTabOn, .ctl00_ContentPlaceHolder1_txtDetail1_StartTabOff
+{
+    background-color: White !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: 1px solid #DADADA !important;
+    border-bottom: none !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_TabOn
+{
+    background-color: WhiteSmoke !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_TabOffRight
+{
+    background-color: White !important;
+    border-left: 1px solid #666 !important;
+    border-right: 1px solid #666 !important;
+    border-top: 1px solid #666 !important;
+    border-bottom: none !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_TabOffLeft
+{
+    background-color: White !important;
+    border-left: none !important;
+    border-right: 1px solid #666 !important;
+    border-top: 1px solid #666 !important;
+    border-bottom: none !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_StartTabOn, .ctl00_ContentPlaceHolder1_txtDetail1_StartTabOff
+{
+    display: none;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_Button_On_Out img
+{
+    padding: 0px;
+    border-top: 1px solid #DADADA !important;
+    border-left: 1px solid #DADADA !important;
+    border-right: 1px solid #DADADA !important;
+    border-bottom: 1px solid #DADADA !important;
+    background-color: WhiteSmoke !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_Button_On_Over img
+{
+    padding: 0px;
+    border-top: 1px solid #DADADA !important;
+    border-left: 1px solid #DADADA !important;
+    border-right: 1px solid #DADADA !important;
+    border-bottom: 1px solid #DADADA !important;
+    background-color: WhiteSmoke !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_Button_Off_Over img
+{
+    padding: 0px;
+    border-top: 1px solid #DADADA !important;
+    border-left: 1px solid #DADADA !important;
+    border-right: 1px solid #DADADA !important;
+    border-bottom: 1px solid #DADADA !important;
+    background-color: WhiteSmoke !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_AncestorArea
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_AncestorArea a
+{
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+    border: 1px solid #DADADA !important;
+    color: #666 !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_AncestorArea a:hover
+{
+    background-color: white !important;
+}
+.ctl00_ContentPlaceHolder1_txtDetail1_AncestorArea a:active
+{
+    background-color: WhiteSmoke !important;
+}
+.selector
+{
+    width:150px !important;
+}
+
+div.selector span {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/select_right.png");
+    background-origin: padding-box;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    cursor: pointer;
+    font-size: 11px;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    right: -1px;
+    text-align: left !important;
+    top: 0;
+    width: 150px;
+}
+
+.MainContent_txtDesc_OuterTable {
+    background-color: #f6f6f6 !important;
+   
+}
+
+.MainContent_txtDesc_TabOn
+{
+    background-color:#fff !important;
+    color:#333 !important;
+}
+
+.MainContent_txtDesc_TabOffRight
+{
+    background-color:#f6f6f6 !important;
+    color:#333 !important;
+}
+.MainContent_txtDesc_EndTab
+{
+     background-color:#fff !important;
+     border:solid 1px #999 !important;
+}
+
+.MainContent_txtDesc_TabOffLeft
+{
+     background-color:#f6f6f6 !important;
+    color:#333 !important;
+}

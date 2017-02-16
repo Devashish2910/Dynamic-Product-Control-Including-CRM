@@ -1,0 +1,151 @@
+﻿.BodyClass
+{
+	background-image: url(../images/pat4.png);
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: Black;
+	background-position: initial initial;
+	background-repeat: repeat repeat;
+}
+.txtError
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #990000;
+	text-decoration: none;
+}
+
+.exp
+{
+	background-image: url(../images/spinnerBottom.png);
+	background-color: none;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.img100
+{
+	width: 150px;
+	height: 150px;
+	border: solid 2px #999;
+}
+
+.removeIcon
+{
+	background: url(    '../images/ui-icons_888888_256x240.png' ) no-repeat -100px -132px;
+	width: 9px;
+	height: 9px;
+	margin-bottom: 5px;
+	position: relative;
+	left: 10px;
+	cursor: pointer;
+}
+.AddIcon
+{
+	background: url(   '../images/ui-icons_888888_256x240.png' ) no-repeat -36px -132px;
+	width: 9px;
+	height: 9px;
+	cursor: pointer;
+	position: relative;
+	top: 2px;
+}
+.AddText
+{
+	cursor: pointer;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #888888;
+	margin-right: 5px;
+}
+/*=====ModalPopup=======*/
+.modalBackground
+{
+	background-color: #f1f1f2;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+}
+
+.modalPopup
+{
+	background-color: #FFFFFF; /*#F3F4F5;*/
+	padding: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #494949;
+	font-size: 12px;
+	font-weight: normal;
+	height: auto;
+	width: auto;
+	border: 6px solid #9E9E9E;
+	border-radius: 12px;
+	behavior: url(PIE-1.0beta5/PIE.htc);
+	position: fixed !important;
+}
+
+.modalPopupClose
+{
+	font-family: Arial;
+	color: #575757;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.modalPopup1
+{
+	background-color: #F6F6F6; /*#F3F4F5;*/
+	padding:10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #3F3F3F;
+	font-size: 12px;
+	font-weight: normal;
+	height: auto;
+	width: auto;
+	border: 3px solid #474E58;
+	border-radius: 10px;
+	behavior: url(PIE-1.0beta5/PIE.htc);
+	position: fixed !important;
+}
+
+#quoteForm label
+{
+	width:30%;
+	float:left;
+	text-align:right ;
+	font-weight:bold;
+	margin-bottom: 5px;
+	padding:0px;
+	
+}
+/*#quoteForm span
+{
+	width:70%;
+	float:left;
+	text-align:left ;
+	margin-bottom: 5px;
+}*/
+#innerquoteForm label
+{
+	width:75%;
+	margin-right:5px;
+}
+#innerquoteForm span
+{
+	width:20%;
+	
+}
+
+.title span
+{
+	text-transform:uppercase;
+}
+
+ .slash {    
+    margin-left: 5px;
+    margin-right: 5px;
+} 

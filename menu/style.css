@@ -1,0 +1,394 @@
+ nav, ul, li  {margin: 0; padding: 0; font-family:arial; font-size:14px;}
+
+.toggleMenu {
+    display:  none;
+    background: #FF4F12;
+    color: #fff;
+	line-height: 40px;
+    text-align: center;
+    width: 100%;
+    font-family:Arial;
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+.nav1 {
+    list-style: none;
+     *zoom: 1;
+     background:#000;
+	 line-height:24px;
+     width:100%;
+     border-top:solid 1px #eaeaea;
+}
+.nav1:before,
+.nav1:after {
+    content: " "; 
+    display: table; 
+}
+.nav1:after {
+    clear: both;
+}
+
+.nav1 .home_icon_menu
+{
+    background-color: #FF5318;
+    height: 44px;
+    line-height: 50px;
+    padding: 0 8px;
+    text-align: center;
+    width: 50px;
+}
+
+.nav1 .home_icon_menu a:hover
+{
+   color:#fff;
+}
+
+.nav1 ul {
+    list-style: none;
+    width: 9em;
+}
+.nav1 a {
+   
+    color:#fff ;
+}
+
+.nav1 li {
+    position: relative;
+	
+}
+.nav1 > li {
+    float: left;
+	padding-right:5px;
+  
+}
+.nav1 > li > .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+	 padding: 10px 20px;
+	 text-transform:uppercase;
+}
+.nav1 > li > a {
+    display: block;
+	
+}
+.nav1 li  ul {
+    position: absolute;
+    left: -9999px;
+	
+}
+.nav1 > li.hover > ul {
+    left: 0;
+}
+.nav1 li li.hover ul {
+    left: 100%;
+    top: 0;
+	
+}
+.nav1 li li a {
+    display: block;
+    background: #1a1a1a;
+    position: relative;
+    z-index:100;
+    border-top: 1px solid #ccc;
+  width:220px;
+  font-size:13px;
+   padding: 5px 10px;
+   font-weight:normal;
+}
+
+.nav1 li li a:hover {
+    color:#FF4F12;
+	
+}
+
+.nav1 li li li a {
+    background:#249578;
+    z-index:200;
+    border-top: 1px solid #ccc;
+}
+
+.hover
+{
+	background-color:#fff;
+	
+	
+}
+
+.hover a.parent{
+	
+	color:#FF4F12;
+	background-image: url("images/downArrow_hover.png");
+		   background-position: right center;
+    background-repeat: no-repeat;
+	
+  
+	}
+@media screen and (max-width: 1023px) {
+    .active {
+        display: block;
+    }
+     .toggleMenu
+    {
+        color:#fff;
+    }
+    .toggleMenu:hover
+    {
+        color:#fff;
+    }
+
+    nav, ul, li  {margin: 0; padding: 0; font-family:arial; font-size:12px;}
+	.nav1 {
+    text-align: center;   
+   
+}
+.nav1 .home_icon_menu {
+   display:none;
+}
+.nav1bar {
+
+margin: 10px 0 5px;}
+    .nav1 > li {
+        float: none;
+    }
+    .nav1 > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav1 li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+		 padding: 10px 20px;
+	 text-transform:uppercase;
+    }
+    .nav1 ul {
+        display: block;
+        width: 100%;
+    }
+   
+   .nav1 > li.hover > ul , .nav1 li li.hover ul {
+        position: static;
+    }
+
+	
+.hover
+{
+	background-color:#1a1a1a;
+	border-top:solid 1px #eaeaea;
+}
+
+.hover a.parent{
+	
+	color:#fff;
+	  background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    
+	 text-transform:uppercase;
+	}
+	
+	.nav1 li li a {
+    display: block;
+    background: #fff;
+    position: relative;
+    z-index:100;
+    border-bottom: 1px solid #ccc;
+	color:#FF4F12;
+	 width:auto;
+  font-size:12px;
+  line-height:15px;
+  margin-left:4px;
+ 
+  
+}
+
+.nav1 li li a:hover {
+    color:#1a1a1a;
+}
+
+}
+
+
+@media screen and (max-width: 979px) {
+    .active {
+        display: block;
+    }
+     .toggleMenu
+    {
+        color:#fff;
+    }
+    .toggleMenu:hover
+    {
+        color:#fff;
+    }
+
+    nav, ul, li  {margin: 0; padding: 0; font-family:arial; font-size:12px;}
+	.nav1 {
+    text-align: center;   
+   
+}
+.nav1 .home_icon_menu {
+   display:none;
+}
+.nav1bar {
+
+margin: 10px 0 5px;}
+    .nav1 > li {
+        float: none;
+    }
+    .nav1 > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav1 li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+		 padding: 10px 20px;
+	 text-transform:uppercase;
+    }
+    .nav1 ul {
+        display: block;
+        width: 100%;
+    }
+   
+   .nav1 > li.hover > ul , .nav1 li li.hover ul {
+        position: static;
+    }
+
+	
+.hover
+{
+	background-color:#1a1a1a;
+	border-top:solid 1px #eaeaea;
+}
+
+.hover a.parent{
+	
+	color:#fff;
+	  background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    
+	 text-transform:uppercase;
+	}
+	
+	.nav1 li li a {
+    display: block;
+    background: #fff;
+    position: relative;
+    z-index:100;
+    border-bottom: 1px solid #ccc;
+	color:#FF4F12;
+	 width:auto;
+  font-size:12px;
+  line-height:15px;
+  margin-left:4px;
+ 
+  
+}
+
+.nav1 li li a:hover {
+    color:#1a1a1a;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+     .toggleMenu
+    {
+        color:#fff;
+    }
+    .toggleMenu:hover
+    {
+        color:#fff;
+    }
+
+    nav, ul, li  {margin: 0; padding: 0; font-family:arial; font-size:12px;}
+	.nav1 {
+    text-align: center;   
+   
+}
+.nav1 .home_icon_menu {
+   display:none;
+}
+.nav1bar {
+
+margin: 10px 0 5px;}
+    .nav1 > li {
+        float: none;
+    }
+    .nav1 > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav1 li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+		 padding: 10px 20px;
+	 text-transform:uppercase;
+    }
+    .nav1 ul {
+        display: block;
+        width: 100%;
+    }
+   
+   .nav1 > li.hover > ul , .nav1 li li.hover ul {
+        position: static;
+    }
+
+	
+.hover
+{
+	background-color:#1a1a1a;
+	border-top:solid 1px #eaeaea;
+}
+
+.hover a.parent{
+	
+	color:#fff;
+	  background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    
+	 text-transform:uppercase;
+	}
+	
+	.nav1 li li a {
+    display: block;
+    background: #fff;
+    position: relative;
+    z-index:100;
+    border-bottom: 1px solid #ccc;
+	color:#FF4F12;
+	 width:auto;
+  font-size:12px;
+  line-height:15px;
+  margin-left:4px;
+ 
+  
+}
+
+.nav1 li li a:hover {
+    color:#1a1a1a;
+}
+
+}
+@media (max-width: 480px) 
+{
+	nav, ul, li  {margin: 0; padding: 0; font-family:arial; font-size:12px;}
+	.nav1 {
+    text-align: center;   
+   
+}
+.toggleMenu
+    {
+        font-size:12px;
+    }
+	.nav1 .home_icon_menu {
+   display:none;
+}
+	}
